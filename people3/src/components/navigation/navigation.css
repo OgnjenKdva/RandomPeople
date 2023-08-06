@@ -1,0 +1,32 @@
+.stop-button, .play-button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .stop-button {
+    background-color: rgb(241, 6, 6);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stop-button:hover {
+    background-color: rgb(211, 6, 6);
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  
+  .play-button {
+    background-color: rgb(33, 140, 241);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .play-button:hover {
+    background-color: rgb(3, 110, 204);
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
